@@ -78,9 +78,9 @@ void loop() {
       }
 
       if (day != currentDay){
-        Serial.print("Minimum = ");
+        Serial.print("Minimum temperature = ");
         Serial.print(min);
-        Serial.print(", Maximum = ");
+        Serial.print(", Maximum temperature = ");
         Serial.println(max);
 
         currentDay = day;
